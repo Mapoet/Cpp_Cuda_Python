@@ -5,7 +5,7 @@
 ## 框架
 
 语言接口及调用形式见下图:
-![语言间接口](languages.png)
+![语言间接口](languages.svg)
 
 ### Cuda与C/C++接口
 
