@@ -47,4 +47,4 @@
 
 ### C/C++与Python接口
 
-虽然Python提供了Cython与ctypes，但是相比而言，使用[Boost.Python](https://www.boost.org/doc/libs/1_63_0/libs/python/doc/html/numpy/index.html)/[Boost.Numpy](https://www.boost.org/doc/libs/1_63_0/libs/python/doc/html/numpy/tutorial/ndarray.html)以及[DataFrame](https://github.com/hosseinmoein/DataFrame)，于对用户开发更加便捷。通过暴露接口的形式可以灵活控制C/C++对象与Python的交互。如果你曾经开发过COM组建，在Windows平台使多种语言可以便捷调用C++对象，那么这次对接受C/C++向Python的交互是十分乐意的简洁形式。
+虽然Python提供了Cython与ctypes，但是相比而言，使用[Boost.Python](https://www.boost.org/doc/libs/1_63_0/libs/python/doc/html/numpy/index.html)/[Boost.Numpy](https://www.boost.org/doc/libs/1_63_0/libs/python/doc/html/numpy/tutorial/ndarray.html)以及[DataFrame](https://github.com/hosseinmoein/DataFrame)，于对用户开发更加便捷。通过暴露接口的形式可以灵活控制C/C++对象与Python的交互。如果你曾经开发过COM组建，在Windows平台使多种语言可以便捷调用C++对象，那么这次对接受C/C++向Python的交互是十分乐意，因为它如此简洁。
