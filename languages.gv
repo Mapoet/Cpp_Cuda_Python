@@ -1,0 +1,13 @@
+digraph{
+"Cuda" -> "C"
+"Cuda" -> "C++"
+"BLAS/LAPACK" -> "Fortran"
+"Fortran" -> "C"[label="bind/混合编程"]
+"C" -> "Fortran"[label="bind/混合编程"]
+"C" -> "C++"[label="原生支持"]
+"C++" -> "C"[label="原生支持"]
+"Fortran" -> "C++"[label="bind/混合编程"]
+"C++" -> "Fortran"[label="bind/混合编程"]
+"C++" -> "Python"[label="Boost.Numpy/Boost.Python+DataFrame"]
+"Python" -> "C++"[label="PyRun"]
+}
