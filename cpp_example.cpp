@@ -213,3 +213,11 @@ BOOST_PYTHON_MODULE(cpp_example) //导出的module 名字
     obp::bp::def("from_dict",&obp::from_dict);
     obp::bp::def("from_json",&obp::from_json);
 }
+#if 0
+int main(){
+    Py_Initialize();
+    PyRun_SimpleString("import helloworld");
+    PyRun_SimpleString("helloworld.printHello()");
+    Py_Finalize();
+}
+#endif
