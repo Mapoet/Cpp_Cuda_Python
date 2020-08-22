@@ -118,9 +118,7 @@ namespace obp
         }
       //  T& x(){return _x;}
       //  T& y(){return _y;}
-/*         struct point_add:bp::detail::binary_op<bp::detail::op_add>{
-
-        };
+/*
         friend _point operator+(_point x,_point y){
             return _point(x._x+y._x,x._y+y._y);
         }
@@ -128,6 +126,10 @@ namespace obp
             return _point(x._x-y._x,x._y-y._y);
         } */
     };
+    /*
+    struct point_add:bp::detail::binary_op<bp::detail::op_add>{
+
+    };*/
     template<class T>
     using point=struct _point<T>;
     template<class T>

@@ -8,7 +8,7 @@ import cpp_example
 # import pytest
 p1=cpp_example.point(2,0)
 p2=cpp_example.point(6,3)
-l2=cpp_example.line(p1,p2) 
+l2=cpp_example.line(p1,p2)
 p3=l2.dif
 print(l2.dif.x,l2.dif.y)
 print(l2.abs,p3.abs)
